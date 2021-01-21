@@ -1,11 +1,11 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View, SafeAreaView, Pressable, Dimensions, Platform } from 'react-native';
-import Map from './component/Map.jsx';
-import NavBar from './component/NavBar.jsx';
-import BottomNav from './component/BottomNav.jsx';
+import Map from './Map.jsx';
+import NavBar from './NavBar.jsx';
+import BottomNav from './BottomNav.jsx';
 
-export default function App() {
+export default function Home() {
 
   return (
     <View style={styles.container}>
